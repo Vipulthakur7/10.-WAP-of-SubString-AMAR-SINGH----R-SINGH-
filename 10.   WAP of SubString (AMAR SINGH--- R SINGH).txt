@@ -1,0 +1,19 @@
+import java.util.*;
+class substring{
+    Scanner sn=new Scanner(System.in);
+    void sub(){
+        String s=sn.nextLine();
+        int len;
+        len=s.length();
+        for(int i=0;i<len;i++)
+        {
+            if(s.charAt(i)==32)
+            System.out.printf(s.substring(i-1,len));}
+        
+    }}
+public class Main{
+    public static void main (String[] args) {
+    substring obj=new substring();
+    obj.sub();
+    }
+}
